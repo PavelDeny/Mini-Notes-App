@@ -1,0 +1,11 @@
+{
+  // tsconfig.json — основной конфиг TypeScript для проекта
+  // Определяет, как компилируется TypeScript-код
+  // include/exclude — какие файлы включать/исключать
+  // compilerOptions — настройки компилятора (модули, пути, strict и т.д.)
+  "files": [],
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+  ]
+}
